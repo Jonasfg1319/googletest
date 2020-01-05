@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+#topo{
+	float: right;
+}
+#topo ul li{
+	float: right;
+	margin-left: 10px;
+	padding: 20px;
+
+}
+#topo ul li a{
+	color: black;
+	text-decoration: none;
+}
+#topo ul li a:hover{
+	border-bottom: 1px solid black;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+#meio{
+	clear: both;
+	text-align: center;
+	margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#meio img{
+    margin-top: 100px;
+}
+
+input{
+	position: absolute;
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 100px;
+	left: 440px;
+	border: 1px solid silver;
+}
+button{
+
+	margin-top: 70px;
+	padding: 10px;
+	color: blue;
+	background: #fff;
+	border: 1px solid silver;
+    margin-left: 10px;
+
+}
+button#pesquisa{
+	margin-left: 550px;
+
+}
+button:hover{
+	cursor: pointer;
+	background: #CAE1FF;
+}
+
+#rodape{
+   margin-top: 210px;
+   background: #EEEEE0
+;
+}
+#lista-direita{
+	float: right;
+	 
+}
+#lista-esquerda{
+	float: left;
+	 
+}
+
+#lista-esquerda li, #lista-direita li{
+	float: left;
+	padding: 10px;
+	
+}#lista-esquerda li a, #lista-direita li a{
+	color: black;
+}
